@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Client.Project.API</name>
+    </assembly>
+    <members>
+        <member name="M:Client.Project.API.Controllers.TablesController.Get">
+            <summary>
+            Retrieves a list of tables
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Client.Project.API.Models.TableDto.Id">
+            <summary>
+            Unique Id for the table. 
+            </summary>
+        </member>
+        <member name="P:Client.Project.API.Models.TableDto.TableNumber">
+            <summary>
+            Public number for the table 
+            </summary>
+        </member>
+        <member name="P:Client.Project.API.Models.TableDto.Seats">
+            <summary>
+            The number of seats available for this table
+            </summary>
+        </member>
+        <member name="P:Client.Project.API.Models.TableDto.Status">
+            <summary>
+            The current status of the table. Can either be Available or Occupied.
+            </summary>
+        </member>
+    </members>
+</doc>
