@@ -1,0 +1,10 @@
+{
+  "title": "Customer",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    }
+  },
+  "description": "A customer"
+}
